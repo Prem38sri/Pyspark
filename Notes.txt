@@ -1,0 +1,6 @@
+coalesce - decreases partion with less data movement. New partiotion will get data (https://spark.apache.org/docs/latest/api/python/reference/api/pyspark.sql.DataFrame.coalesce.html?highlight=coalesce#pyspark.sql.DataFrame.coalesce)
+repartition - increase or decrease repartition with full data shuffle
+where vs filter - where is an alias for filter, do repartion or coalesce as number of partion does not decrease by itself(https://mungingdata.com/apache-spark/filter-where/)
+inferschema used samplingRation option by default it is 100 rows
+save vs saveAsTable - saveAsTable for hive table
+parquet read - option("compression", "snappy") and partion by - https://sparkbyexamples.com/pyspark/pyspark-read-and-write-parquet-file/
